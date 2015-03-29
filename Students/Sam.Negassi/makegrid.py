@@ -27,21 +27,3 @@ def print_grid(n):
    # example: makes a 4 X 4 grid
 print_grid(4)
 
-
-# The code below was my first go at the problem. See above for my imporved solution:
-# def plusMinus(n):
-# 	for i in range(0,n):
-# 		print("+ - - - - + - - - - +")
-
-# def barlines(n):
-# 	for i in range(0,n):
-# 		print("|         |         |")
-
-# def blockBuilder(n):
-# 	for i in range(0,n):
-# 		plusMinus(1)
-# 		barlines(4)
-
-# # build two blocks and one closing wall (plusMinus is the closing wall)
-# blockBuilder(2)
-# plusMinus(1)
